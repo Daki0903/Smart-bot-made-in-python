@@ -51,7 +51,7 @@ def get_smart_response(user_input):
         return ask_and_learn(user_input, memory)
 
 def ask_and_learn(user_input, memory):
-    print("SmartBot: Ne znam odgovor. Kako da odgovorim?")
+    print("SmartBot: I don't know the answer. How should I answer??")
     answer = input("Ti (odgovor): ").strip()
     if answer:
         embedding_tensor = model.encode(user_input, convert_to_tensor=True)
@@ -62,5 +62,5 @@ def ask_and_learn(user_input, memory):
             "embedding": embedding_list
         })
         save_memory(memory)
-        return "Zapamtio sam to!"
-    return "Nisam dobio odgovor."
+        return "I remembered that!"
+    return "I didn't get an answer."
