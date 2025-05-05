@@ -1,4 +1,4 @@
-Jel sve ovo README.md  # SmartBot 🤖💬
+ # SmartBot 🤖💬
 
 **SmartBot** is a Python-based intelligent chatbot that enables you to search the web or engage in interactive conversations. With the ability to learn from user input, it constantly improves its responses, creating a more personalized experience over time. This chatbot features web search integration, a memory system for learning, and much more!
 
